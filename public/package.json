@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "name": "git-clone",
+  "version": "1.0.0",
+  "description": "git clone",
+  "main": "index.js",
+  "repository": "https://github.com/yhuakim/git-clone.git",
+  "author": "yhuakim",
+  "license": "MIT",
+  "private": false
+}

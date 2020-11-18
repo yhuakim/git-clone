@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Buycoins_test</title>
+</head>
+<body>
+    <div class="heading">
+        <div class="navbar">
+            <span class="menu-toggler">
+                <i class="fas fa-bars"></i>
+            </span>
+            <div class="nav-brand">
+                <div class="logo">
+                    <i class="fab fa-github"></i>
+                </div>
+                <span class="notification-icon-header"><a href=""><i class="fas fa-bell"></i></a></span>
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Search or jump to..." class="searchbar"/> 
+                    <span class="searchicon">/</span>
+                </div>
+                <ul class="nav">
+                    <li class="nav-item"><a href="" class="nav-link">Pull requests</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Issues</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Marketplace</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Explore</a></li>
+                </ul>
+            </div>
+                
+            <div class="icons-left">
+                <div class="notification-icon"><a href=""><i class="fas fa-bell"></i></a></div>
+                <div class="new-repo"><a href=""><i class="fas fa-plus"></i> <i class="fas fa-caret-down"></i> </a></div>
+                <div class="avatar">
+                    <img src="" alt="portrait" id="avatar-sm" />
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="profile">
+            <div class="basic-info">
+                <img src="" alt="portrait" id="portrait" />
+                <div class="names">
+                    <h1 class="name"></h1>
+                    <h3 class="username"></h3>
+                </div>
+            </div>
+            <div class="emoji" id="emoji"></div>
+            <button class="edit-profile">Edit Profile</button>
+            <div class="follow-info">
+                <span class="followers"><i class="fas fa-user-friends"></i> <code>0</code> followers.</span>
+                <span class="following"><code>2</code> following.</span>
+                <span class="stars"><i class="far fa-star"></i> <code>10</code></span>
+            </div>
+            <div class="links">
+                <p class="portfolio-site"><a href="https://yhuakim.netlify.app" class="porfolio"><i class="fas fa-link"></i> yhuakim.netlify.app</a></p>
+                <p class="twitter-page"><a href="https://twitter.com/yhuakim" class="twitter-handle"><i class="fab fa-twitter"></i> @yhuakim</a></p>
+            </div>
+        </div>
+        <div class="repo-details">
+            <ul class="tabs">
+                <li class="tab-item">Overview</li>
+                <li class="tab-item active"><a href="#" class="tab-link"><i class="fas fa-book"></i>Repositories</a> <span class="repo-num">25</span> </li>
+                <li class="tab-item">Projects</li>
+                <li class="tab-item">Packages</li>
+            </ul>
+            <div class="find-repo-wrapper">
+                <input type="text" class="find-repo" placeholder="Find a repository..." />
+                <div class="type-option">
+                    <label for="type">Type:</label>
+                    <select name="type" id="type">
+                        <option value="All">All</option>
+                        <option value="Pubic">Pubic</option>
+                        <option value="Private">Private</option>
+                        <option value="Sources">Sources</option>
+                        <option value="Forks">Forks</option>
+                        <option value="Archived">Archived</option>
+                        <option value="Mirrors">Mirrors</option>
+                    </select>
+                </div>
+                <div class="language-option">
+                    <label for="language">Language:</label>
+                    <select name="type" id="type">
+                        <option value="All">All</option>
+                        <option value="HTML">HTML</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="CSS">CSS</option>
+                        <option value="TypeScript">TypeScript</option>
+                    </select>
+                </div>
+                <button class="new-repo-btn">
+                    <i class="fas fa-book"></i>
+                    New
+                </button>
+            </div>
+            <div class="repo-wrapper"></div>
+            
+        </div>
+    </div>
+<script src='./node_modules/axios/dist/axios.min.js'></script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+.body {
+    width: 100%;
+}
+
+.profile {
+    display: grid;
+    padding: 20px;
+}
+
+.basic-info {
+    display: flex;
+    align-items: center;
+}
+
+#portrait {
+    width: 110px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.names>.name {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+}
+
+.username {
+    line-height: 1;
+    padding: 0;
+    font-weight: 400;
+    color: rgba(36, 41, 46, 0.63);
+}
+
+.emoji {
+    display: flex;
+    border: 1px solid rgba(36, 41, 46, 0.116);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.emoji>div {
+    margin-right: 2px;
+}
+
+.edit-profile {
+    padding: 5px;
+    border: 1px solid rgba(36, 41, 46, 0.116);
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgba(36, 41, 46, 0.93);
+    font-weight: 600;
+}
+
+.follow-info {
+    color: rgba(36, 41, 46, 0.75);
+}
+
+.followers>code, .following>code, .stars>code {
+    color: rgb(36, 41, 46);
+}
+
+.links>p>a {
+    color: rgba(36, 41, 46, 0.75);
+}
+
+.links>p>a:hover {
+    color: rgb(0, 86, 172);
+    text-decoration: underline;
+}
+
+.repo-details {
+    display: grid;
+    width: 100%;
+}
+
+.tabs {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    border-bottom: 1px solid rgba(36, 41, 46, 0.151);
+}
+
+.tabs>li {
+    padding: 10px 20px;
+    color: rgba(36, 41, 46, 0.63);
+}
+
+.tabs>.active {
+    border-bottom: 2px solid rgb(243, 99, 99);
+    position: relative;
+}
+
+.tabs>li>a {
+    color: rgb(36, 41, 46);
+}
+.tabs>li>a>.fa-book {
+    padding-right: 5px;
+}
+.tabs>li>span {
+    width: 60px;
+    height: 60px;
+    color: rgba(36, 41, 46, 0.89);
+    border-radius: 25%;
+    background-color: rgba(36, 41, 46, 0.103);
+    padding: 4px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.find-repo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border-bottom: 1px solid rgba(36, 41, 46, 0.116);
+    padding-bottom: 40px;
+}
+
+.find-repo {
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(36, 41, 46, 0.116);
+    border-radius: 5px;
+}
+
+.type-option, .language-option {
+    border: 1px solid rgba(36, 41, 46, 0.226);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.type-option>select, .language-option>select {
+    border: none;
+}
+
+.language-option {
+    position: relative;
+    left: -85px;
+}
+
+.new-repo-btn {
+    padding: 8px 16px;
+    border: 1px solid rgba(36, 41, 46, 0.103);
+    background-color: #2C974B;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.repo-wrapper {
+    padding: 20px;
+    position: relative;
+    top: -20px;
+    display: grid;
+}
+
+.repos {
+    height: 100px;
+    border-bottom: 1px solid rgba(36, 41, 46, 0.116);
+    padding-bottom: 20px;
+}
+
+.repo-name>h1>a {
+    color: rgb(0, 86, 172);
+    font-weight: 500;
+}
+
+.repo-name>h1>a:hover {
+    text-decoration: underline;
+}
+
+.btn-star {
+    position: relative;
+    top: -40px;
+    left: 90%;
+    border: 1px solid rgba(36, 41, 46, 0.116);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgba(36, 41, 46, 0.932);
+}
+
+.fa-star {
+    padding: 2px;
+}
+
+.description {
+    position: relative;
+    line-height: 1;
+    top: -42px;
+}
+
+.details {
+    position: relative;
+    top: -40px;
+    font-weight: 400;
+    color: rgba(36, 41, 46, 0.76);
+}
+
+.language, .star, .forks, .licence-info, .update {
+    margin-right: 5px;
+}

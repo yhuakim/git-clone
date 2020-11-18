@@ -1,0 +1,365 @@
+@media only screen and (min-width: 500px) {
+    /* For sm-device: */
+    body {
+        overflow-x: hidden;
+    }
+
+    .searchicon {
+        position: absolute;
+        left: 90%;
+        top: 3px;
+    }
+    .menu-toggler {
+        font-size: 20px;
+        position: relative;
+        top: 1vh;
+    }
+    
+    .fa-github {
+        top: -2vh;
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .input-wrapper {
+        width: 100%;
+        position: relative;
+        background-color: transparent;
+        padding: 0;
+        top: 10px;
+    }
+    
+    .searchbar {
+        width: 450px;
+    }
+    
+    .nav {
+        width: 450px;
+    }
+    
+    .notification-icon-header {
+        position: relative;
+        left: 90%;
+        top: -7vh;
+    }
+    
+    .new-repo, .avatar, .notification-icon {
+        display: none;
+    }
+    
+    .find-repo {
+        width: 350px;
+    }
+
+    .language-option {
+        position: relative;
+        left: 0;
+    }
+
+    .btn-star {
+        left: 85%;;
+    }
+  
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .hide {
+        display: block;
+    }
+
+    .nav-brand {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        background-color: rgb(36, 41, 46);
+        color: #fff;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+    }
+
+    .searchicon {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 0 8px;
+        border-radius: 3px;
+        position: relative;
+        left: -32px;
+        top: -1px;
+        z-index: 20;
+        margin: 5px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    /* .searchbar, .searchicon {
+        position: absolute;
+        background-color: transparent;
+        top: 5vh;
+    } */
+    
+    .menu-toggler {
+        display: none;
+    }
+
+    .logo {
+        width: 200px;
+        display: block;
+    }
+    
+    .logo>i {
+        font-size: 40px;
+        margin-left: 25px;
+    }
+    
+    .input-wrapper {
+        display: flex;
+        width: 360px;
+        background-color: transparent;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+    }
+    
+    .searchbar {
+        width: 100%;
+        position: relative;
+        background-color: transparent;
+        /* width: 200px; */
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        padding: 5px 10px;
+    }
+    
+    .nav {
+        width: 100%;
+        display: flex;
+        border: none;
+        position: relative;
+        left: -45px;
+        margin-top: 0px;
+        /* width: 320px; */
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    
+    .nav>li {
+        position: relative;
+        width: 90px;
+        text-align: center;
+    }
+
+    .icons-left {
+        width: 100%;
+        display: flex;
+        position: relative;
+        left: -58px;
+    }
+    
+    .notification-icon-header {
+        display: none;
+    }
+    
+    .new-repo, .avatar, .notification-icon {
+        display: inline;
+        width: 28px;
+        padding: 5px;
+    }
+
+    .avatar-sm {
+        border-radius: 50%;
+    }
+
+    .new-repo>a, .avatar>a, .notification-icon>a {
+        color: #fff;
+
+    }
+    
+    .nav-item {
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .nav-item>a {
+        color: #fff;
+    }
+
+    .body {
+        display: flex;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        width: 23%;
+    }
+
+    .basic-info {
+        width: 100%;
+        display: block;
+    }
+
+    #portrait {
+        width: 200px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .emoji {
+        display: flex;
+        position: absolute;
+        border: none;
+        top: 33vh;
+        left: 25%;
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 15px;
+        margin-bottom: 6px;
+    }
+    
+    .emoji>span {
+        display: none;
+    }
+
+    .edit-profile {
+        align-self: center;
+        width: 100%;
+    }
+
+    .repo-details {
+        width: 77%;
+    }
+
+    .tabs {
+        width: 100%;
+        position: sticky;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 1px solid rgba(36, 41, 46, 0.151);
+    }
+
+    .find-repo-wrapper {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .find-repo {
+        width: 150px;
+        align-self: center;
+    }
+
+    .language-option {
+        position: relative;
+        left: 0;
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 854px) {
+    .emoji {
+        left: 22%;
+    }
+}
+
+@media only screen and (min-width: 939px) {
+    .logo>i {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .emoji {
+        left: 20%;
+    }
+}
+
+@media only screen and (min-width: 1039px) {
+
+    .emoji {
+        left: 18%;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+
+    .icons-left {
+        position: relative;
+        left: -2%;
+    }
+
+}
+
+@media only screen and (min-width: 1110px) {
+
+    .icons-left {
+        position: relative;
+        left: 2%;
+    }
+
+}
+
+@media only screen and (min-width: 1162px) {
+    .emoji {
+        left: 16.5%;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+
+    .icons-left {
+        position: relative;
+        left: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 1180px) {
+
+    .icons-left {
+        position: relative;
+        left: 8%;
+    }
+
+}
+
+@media only screen and (min-width: 1258px) {
+
+    .icons-left {
+        left: 12%;
+    }
+}
+
+@media only screen and (min-width: 1288px) {
+
+    .emoji {
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .find-repo-wrapper {
+        flex-wrap: nowrap;
+    }
+
+    .find-repo {
+        width: 500px;
+    }
+
+    .new-repo-btn {
+        position: relative;
+        left: -1%;
+    }
+
+    .icons-left {
+        position: relative;
+        left: 15%;
+    }
+}

@@ -1,0 +1,141 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: rgb(36, 41, 46);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.heading {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(36, 41, 46);
+    color: #fff;
+    padding: 0 10px;
+    /* padding: 0 20px; */
+}
+
+.searchicon {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0 7px;
+    border-radius: 3px;
+    left: -5%;
+    top: 1px;
+    position: relative;;
+    z-index: 20;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* .searchbar, .searchicon {
+    position: absolute;
+    background-color: transparent;
+    top: 5vh;
+} */
+
+.menu-toggler {
+    font-size: 20px;
+    position: relative;
+    top: -1vh;
+}
+
+.fa-github {
+    font-size: 30px;
+    position: relative;
+    left: 40%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-wrapper {
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    padding: 0 10px;
+    top: 10px;
+}
+
+.searchbar {
+    background-color: transparent;
+    width: 600px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    padding: 5px 4px;
+}
+
+.nav {
+    position: relative;
+    padding: 10px;
+    width: 610px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 25px;
+}
+
+/* .icons-left {
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: -40.7vh;
+    left: 90%;
+} */
+
+.notification-icon-header>a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.notification-icon-header {
+    position: relative;
+    left: 85%;
+    top: -6px;
+}
+
+.new-repo, .avatar, .notification-icon {
+    display: none;
+}
+
+.nav-item {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-item>a {
+    color: #fff;
+}
+
+/* .heading {
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    height: 5vh;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    margin-right: 50px;
+}
+
+ */
