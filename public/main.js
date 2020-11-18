@@ -9,7 +9,7 @@ const inputWrap = document.querySelector('.input-wrapper')
 const navWrap = document.querySelector('.nav')
 const menuBtn = document.querySelector('.menu-toggler')
 
-const token = process.env.ACCESS_TOKEN
+//const token = process.env.ACCESS_TOKEN
 document.addEventListener('DOMContentLoaded', ()=> {
 
   menuBtn.addEventListener('click', ()=> {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
   const githubURL = 'https://api.github.com/graphql'
   const Oauth = {
-    Authorization: `bearer ${token}`,
+    Authorization: `bearer ${ACCESS_TOKEN}`,
     //'access-control-allow-origin': "*"
   }
   const query = '{' +
