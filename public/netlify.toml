@@ -1,0 +1,6 @@
+[[headers]]
+  for = "/*"
+
+    [headers.values]
+        Authorization: "0689e30d8bdd5a7e5b3adf1d9d85b6446288465a"
+    
