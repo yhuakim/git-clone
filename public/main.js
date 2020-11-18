@@ -9,7 +9,7 @@ const inputWrap = document.querySelector('.input-wrapper')
 const navWrap = document.querySelector('.nav')
 const menuBtn = document.querySelector('.menu-toggler')
 
-const token = '32db71b8248d7614f689abbb1a264758fddc5e5e'
+const token = process.env.ACCESS_TOKEN
 document.addEventListener('DOMContentLoaded', ()=> {
 
   menuBtn.addEventListener('click', ()=> {
